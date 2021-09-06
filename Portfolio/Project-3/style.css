@@ -1,0 +1,167 @@
+body {
+  font-family: 'Lato', sans-serif;
+  padding-top: 75px;
+}
+  
+.header {
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0, .5);
+}
+
+.nav-bar  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+#header-img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+}
+
+.nav-link-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  align-items: center;
+  list-style: none;
+  padding: 0 10px;
+}
+
+.headline {
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group input {
+  margin: 0 10px 0 0;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+  #main {
+    max-width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+}
+
+#trombones {
+  font-family: 'Lato', sans-serif;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#video { 
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+#elements {
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 20px 0 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 30%;
+  justify-content: space-between;
+  border: 1px solid rgba(0,0,0, .5);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card h2, .card h3, .card ol {
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #eee;
+  list-style: none;
+  max-width: 650px;
+  margin: 20px auto 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.menu-main {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0 0 15px;
+}
+
+.menu-main li {
+  padding: 0 0 0 10px;
+}
+
+.menu-main li a {
+  text-decoration: none;
+}
+
+#input {
+  justify-content: center;
+}
+
+#ol {
+  border: 1px;
+  border-radius: 3px;
+  list-style: none;
+  
+}
